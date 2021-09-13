@@ -5,8 +5,6 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <>
-      <div className="App" />
       <>
         <header>
           <h3 className="m-0">COVID-19 STATS</h3>
@@ -22,7 +20,6 @@ function App() {
           </Switch>
         </main>
       </>
-    </>
   );
 }
 export default App;
