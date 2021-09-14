@@ -14,6 +14,6 @@ test('Should display the header', () => {
       </Router>
     </Provider>,
   );
-  const headerText = screen.getByText(/COVID-19 DATA/i);
+  const headerText = screen.getByText(/COVID-19 STATS/i);
   expect(headerText).toBeInTheDocument();
 });
