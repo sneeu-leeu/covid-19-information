@@ -1,7 +1,7 @@
 import { Row, Col } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import { countries } from '../redux/CovidAPI/covidAPI';
+import { countries } from '../redux/CovidInfo/covidInfo';
 import Africa from './globe-africa-solid.svg';
 
 export default function Details() {

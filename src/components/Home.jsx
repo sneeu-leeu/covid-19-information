@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Col, InputGroup, Row } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
 import { LinkContainer } from 'react-router-bootstrap';
-import { countries, totalConfirmed, ready } from '../redux/CovidAPI/covidAPI';
+import { countries, totalConfirmed, ready } from '../redux/CovidInfo/covidInfo';
 import World from './globe-africa-solid.svg';
 
 const Filter = (props) => {

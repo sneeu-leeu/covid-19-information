@@ -1,4 +1,4 @@
-import reducer, { addCountry } from './covidAPI';
+import reducer, { addCountry } from './covid';
 
 test('should return the initial state', () => {
   expect(reducer(undefined, {})).toEqual(
