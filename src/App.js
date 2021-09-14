@@ -2,6 +2,7 @@ import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import Details from './components/Details';
 import Home from './components/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
