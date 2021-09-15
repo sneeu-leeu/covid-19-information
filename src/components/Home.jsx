@@ -4,7 +4,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import { Col, InputGroup, Row } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
 import { LinkContainer } from 'react-router-bootstrap';
-import { countries, totalConfirmed, ready } from '../redux/CovidInfo/covidInfo';
+import { countries, totalConfirmed } from '../redux/CovidInfo/covidInfo';
 import World from './globe-africa-solid.svg';
 
 const Filter = (props) => {
@@ -16,7 +16,7 @@ const Filter = (props) => {
       <span className="input-group-prepend">
         <i className="input-group-text fa fa-search" />
       </span>
-      <input type="text" onChange={filterValues} className="form-control no-shadow" />
+      <input type="text" onChange={filterValues} className="form-control no-shadow" placeholder="Search Specific Country" />
     </InputGroup>
   );
 };
@@ -59,7 +59,6 @@ export default function Home() {
       </LinkContainer>
     ));
 
-  const loader = <div className="loader" />;
   return (
     <div className="pt-3 bg-blue-light">
       <Row className="m-0">
@@ -88,7 +87,7 @@ export default function Home() {
             <Filter setFilter={setFilter} />
           </Col>
         </Row>
-        { useSelector(ready) ? countryComponents : loader }
+        {countryComponents}
       </Row>
     </div>
   );

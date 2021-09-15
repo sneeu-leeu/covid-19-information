@@ -1,4 +1,4 @@
-import { addCountry, changeReadyState, setTotal } from '../redux/CovidInfo/covidInfo';
+import { addCountry, setTotal } from '../redux/CovidInfo/covidInfo';
 
 const apiEndpoint = 'https://api.covid19tracking.narrativa.com/api/';
 
@@ -16,5 +16,4 @@ export const fetchData = async (dispatch) => {
   Object.keys(data.dates[today].countries).forEach((country) => {
     dispatch(addCountry(data.dates[today].countries[country]));
   });
-  dispatch(changeReadyState());
 };

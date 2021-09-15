@@ -1,5 +1,7 @@
 import './App.css';
 import { useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMicrophone, faCog } from '@fortawesome/fontawesome-free-solid';
 import { Navbar } from 'react-bootstrap';
 import {
   Link, Route, Switch, useLocation,
@@ -22,8 +24,8 @@ function App() {
           </Link>
           <h3 className="m-0">COVID-19 STATS</h3>
           <span>
-            <i className="me-4 fas fa-microphone" />
-            <i className="fas fa-cog" />
+            <FontAwesomeIcon icon={faMicrophone} className="me-4" />
+            <FontAwesomeIcon icon={faCog} />
           </span>
         </Navbar>
       </header>
