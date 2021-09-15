@@ -9,7 +9,7 @@ test('should return the initial state', () => {
   );
 });
 
-test('should handle the countries data being added to the store', () => {
+test('should handle a country\'s data being added to the store', () => {
   const previousState = {
     countries: [],
     totalConfirmed: 0,
@@ -17,8 +17,8 @@ test('should handle the countries data being added to the store', () => {
 
   const newState = reducer(previousState, addCountry({
     name: 'South Africa',
-    id: 'southafrica',
-    total_confirmed: 100,
+    id: 'SouthAfrica',
+    total_confirmed: 50,
   }));
 
   expect(newState).toEqual(
@@ -26,8 +26,8 @@ test('should handle the countries data being added to the store', () => {
       countries: [
         {
           name: 'South Africa',
-          id: 'southafrica',
-          total_confirmed: 100,
+          id: 'SouthAfrica',
+          total_confirmed: 50,
         },
       ],
       totalConfirmed: 0,

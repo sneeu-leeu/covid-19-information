@@ -1,4 +1,4 @@
-const initialState = { countries: [], totalConfirmed: 0, ready: false };
+const initialState = { countries: [], totalConfirmed: 0 };
 
 export const FETCH_DATA = 'data/FETCH_DATA';
 const ADD_COUNTRY = 'countries/ADD_REGION';
