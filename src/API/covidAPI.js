@@ -4,9 +4,9 @@ const apiEndpoint = 'https://api.covid19tracking.narrativa.com/api/';
 
 export const fetchCovidData = async () => {
   const today = new Date().toISOString().split('T')[0];
-  let res = await fetch(`${apiEndpoint}/${today}`);
-  res = await res.json();
-  return res;
+  let response = await fetch(`${apiEndpoint}/${today}`);
+  response = await response.json();
+  return response;
 };
 
 export const fetchData = async (dispatch) => {

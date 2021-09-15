@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <header>
-        <Navbar className="px-4 text-white bg-pink1 d-flex justify-content-between">
+        <Navbar className="px-4 text-white bg-blue-dark d-flex justify-content-between">
           <Link to="/" className="text-decoration-none text-white fw-bold">
             &#60; HOME
           </Link>
