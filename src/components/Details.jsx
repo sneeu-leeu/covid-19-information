@@ -25,14 +25,13 @@ export default function Details() {
               {' '}
               Cases
             </p>
-            <i className="far fa-arrow-alt-circle-right h5 m-0" />
           </span>
         </div>
       ),
     ))
     : (
       <div className="bg-blue-dark text-white d-flex align-items-center p-2">
-        <h5 className="m-0 fw-light ps-3">No Regions Available</h5>
+        <h5 className="m-0 fw-light ps-3">These Regions Are Currently Not At Our Disposal</h5>
       </div>
     ));
 

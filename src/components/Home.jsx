@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types';
 import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleRight } from '@fortawesome/fontawesome-free-solid';
 import 'font-awesome/css/font-awesome.min.css';
 import { Col, InputGroup, Row } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
@@ -41,7 +43,7 @@ export default function Home() {
           ${([1, 0, 0, 1][index % 4]) ? 'bg-blue-dark' : 'bg-blue-light'}
         `}
         >
-          <i className="far fa-arrow-alt-circle-right text-white mt-1 mb-4 h5" />
+          <FontAwesomeIcon icon={faArrowAltCircleRight} className="text-white mt-1 mb-4 h5" />
           <span
             className="d-flex flex-column align-items-end text-white mt-4"
             style={{ cursor: 'pointer' }}
