@@ -1,20 +1,15 @@
 import './App.css';
-import { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMicrophone, faCog } from '@fortawesome/fontawesome-free-solid';
 import { Navbar } from 'react-bootstrap';
 import {
-  Link, Route, Switch, useLocation,
+  Link, Route, Switch,
 } from 'react-router-dom';
 import Details from './components/Details';
 import Home from './components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const { pathname } = useLocation();
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
   return (
     <>
       <header>
