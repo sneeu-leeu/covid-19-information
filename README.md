@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Covid-19 Information (Metric WebApp)
 
-## Available Scripts
+This SPA (Mobile APP) gets it's data from the [Narrativa](https://covid19tracking.narrativa.com/index_en.html) API, and displays data regarding Covid-19 Stats.
 
-In the project directory, you can run:
+![Screenshot](./img/home.png)
+![Screenshot](./img/Details.png)
 
-### `yarn start`
+## Additional description of the project and its features.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is my React/Redux Capstone project. Please find full details [here](https://github.com/microverseinc/curriculum-react-redux/blob/main/capstone/react_capstone.md).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Milestones:
 
-### `yarn test`
+- Use React documentation.
+- Use React components.
+- Use React props.
+- Use React Router.
+- Connect React and Redux.
+- Handle events in a React app.
+- Write integration tests with a React testing library.
+- Use styles in a React app.
+- Use React life cycle methods.
+- Apply React best practices and language style guides in code.
+- Use store, actions and reducers in React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔴  Live Demo
 
-### `yarn build`
+[Covid-19 Information](https://adoring-jang-de4a24.netlify.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React, React Router, Redux, Redux Logger, Webpack, Behance, Javascript, React testing library, Babel and Jest
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `yarn eject`
+To get a local copy up and running follow these simple steps inside the root folder.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Setup
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Go to this repository on [GitHub](https://github.com/sneeu-leeu/covid-19-information/tree/Project).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Clone the project by running:
+'$ git clone <HTTPS or SSH Code found on page>'
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Change the directory to the repository:
+'$ cd "your path/Covid-19-Information"
 
-## Learn More
+Install dependencies with:
+'$ npm install'
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Start server with:
+'$ npm start'
 
-### Code Splitting
+it will open `http://localhost:3000/` in your default browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Run tests with:
+'$ npm test'
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👤 **Stephan**
 
-### Advanced Configuration
+Github: [@sneeu-leeu](https://github.com/sneeu-leeu)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Twitter: [@Stephan07484055](https://twitter.com/Stephan07484055)
 
-### Deployment
+LinkedIn: [Stephan Annandale](https://www.linkedin.com/in/stephan-annandale-a4b4931a9/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Contributing
 
-### `yarn build` fails to minify
+Contributions, issues and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to check the [issues page]().
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse for the motivation
+- Original design idea by Nelson Sakwa on Behance.
+
+## 📝 License
+
+This project is MIT Lisenced
